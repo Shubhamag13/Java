@@ -1,0 +1,9 @@
+import java.io.*;
+
+public class BufferedWrite {
+    public static void main(String[] args) throws Exception {
+        BufferedWriter bw = new BufferedWriter(new FileWriter("data.txt"));
+        bw.write("Buffered writing example.");
+        bw.close();
+    }
+}
