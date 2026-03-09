@@ -1,0 +1,11 @@
+| Feature           | Queue                    | Deque                    | PriorityQueue             |
+| ----------------- | ------------------------ | ------------------------ | ------------------------- |
+| Full Form         | First-In-First-Out Queue | Double Ended Queue       | Priority-based Queue      |
+| Order             | FIFO                     | FIFO or LIFO             | Based on priority         |
+| Insert Position   | Rear only                | Front & Rear             | Any (by priority)         |
+| Remove Position   | Front only               | Front & Rear             | Highest / Lowest priority |
+| Allows Null       | No                       | No                       | No                        |
+| Duplicate Allowed | Yes                      | Yes                      | Yes                       |
+| Common Classes    | LinkedList, ArrayDeque   | ArrayDeque, LinkedList   | PriorityQueue             |
+| Typical Use       | Task scheduling          | Stack / Deque operations | CPU scheduling, Dijkstra  |
+| Example Method    | offer(), poll()          | addFirst(), addLast()    | poll() gives min/max      |
